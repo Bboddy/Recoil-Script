@@ -58,7 +58,7 @@ active_weapon, active_scope, start_time = 0, 0, 0
 
 def get_sense(): #Getting sensitivity
     global sense
-    file = open('C:\Program Files (x86)\Steam\steamapps\common\Rust\cfg\client.cfg') #Path to rust
+    file = open('Z:\SteamLibrary\steamapps\common\Rust\cfg\client.cfg') #Path to rust
     for line in file:
         if "input.sensitivity" in line:
             line = line.replace('"', '')
